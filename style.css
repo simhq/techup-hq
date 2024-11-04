@@ -6,8 +6,21 @@
     font-family: Arial, sans-serif;
 }
 
+#Benefits {
+    padding-top: 70px;
+}
+
+#Concerns {
+    padding-top: 70px;
+}
+
+#AIChat {
+    padding-top: 70px;
+}
+
 /* Navbar */
 .navbar {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +57,10 @@
 .hero {
     background-color: white;
     text-align: left;
-    padding: 30px 20px
+    padding-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
 .hero h1 {
@@ -82,6 +98,13 @@
     color: #555;
     font-size: 1.5em;
 }
+
+.footer {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 /* Chat Feature */
 .chat-container {
