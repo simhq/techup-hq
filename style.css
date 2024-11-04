@@ -21,6 +21,7 @@
 /* Navbar */
 .navbar {
     position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +58,7 @@
 .hero {
     background-color: white;
     text-align: left;
-    padding-top: 80px;
+    padding-top: 110px;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -110,7 +111,7 @@
 .chat-container {
     width: 100%;
     max-width: 1200px; /* Adjust the width as needed */
-    height: 600px;
+    height: 500px;
     margin: 20px auto; /* Center the chat container */
     border: 1px solid #ccc;
     border-radius: 8px;

@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aerosol Injection</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+    <!-- <button onclick="sayHello()">This is a button</button> -->
     <!-- Navigation Bar -->
     <header class="navbar">
         <div class="logo">Ask Anything About Aerosol Injection</div>
@@ -85,7 +87,7 @@
     </section>
 
     <script>
-        const apiKey = 'API-KEY'; // Replace with your OpenAI API key
+        const apiKey = 'APIKEY'; // Replace with your OpenAI API key
 
         async function sendMessage() {
             const inputField = document.getElementById('user-input');
@@ -124,7 +126,7 @@
                 body: JSON.stringify({
                     model: 'gpt-4o-mini', // or use 'gpt-4' if you have access
                     messages: [
-                        { role: 'system', content: 'You are an expert that provides information about aerosol injection. You will only answer questions pertaining to aerosol injection. Your answer shall be simple enough for a 6 year old kid to understand' },
+                        { role: 'system', content: 'You are an expert that provides information about climate change, aerosol injection or other geo-engineering topics. You will only answer questions pertaining to climate change, aerosol injection or other geo-engineering topics. Your answer shall be simple enough for an average person without prior knowledge, to understand' },
                         { role: 'user', content: message }
                     ]
                 })

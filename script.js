@@ -22,3 +22,7 @@ while (age < 70) {
     console.log("My age is " + age)
     age++;
 }
+
+function sayHello() {
+    alert("hello everyone!")
+}
