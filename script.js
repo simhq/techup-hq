@@ -23,6 +23,7 @@ while (age < 70) {
     age++;
 }
 
-function sayHello() {
-    alert("hello everyone!")
+function showAge() {
+    var user_input = document.getElementById("user-input").value;
+    document.getElementById("header-age").textContent = user_input;
 }
