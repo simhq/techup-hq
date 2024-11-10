@@ -88,7 +88,7 @@
     <script>
         //require('dotenv').config();
         //const apiKey = process.env.APIKEY;
-        const apiKey = 'APIKEY'; // Replace with your OpenAI API key
+        const apiKey = process.env.APIKEY;; // Replace with your OpenAI API key
 
         async function sendMessage() {
             const inputField = document.getElementById('user-input');
